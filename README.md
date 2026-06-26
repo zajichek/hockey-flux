@@ -1,2 +1,2 @@
 # hockey-flux
-Hockey simulation model in the flux ecosystem
+Hockey simulation model in the flux ecosystem.
