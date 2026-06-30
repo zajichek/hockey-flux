@@ -1,4 +1,5 @@
 ## Run a game simulation
+library(fluxCore)
 
 # Create a game entity
 source(file = "entities/game_init.R")
