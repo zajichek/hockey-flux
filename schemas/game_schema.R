@@ -57,13 +57,38 @@ game_schema <-
         # Number of home skaters on ice
         home_skaters_on_ice = list(
           type = "positive_integer",
-          default = NA,
+          default = 5,
           allow_na = TRUE
         ),
 
         # Number of away skaters on ice
         away_skaters_on_ice = list(
           type = "positive_integer",
+          default = 5,
+          allow_na = TRUE
+        ),
+
+        # Game-clock expiration times for active two-minute minor penalties
+        home_penalty_1_expires = list(
+          type = "nonnegative_numeric",
+          default = NA,
+          allow_na = TRUE
+        ),
+
+        home_penalty_2_expires = list(
+          type = "nonnegative_numeric",
+          default = NA,
+          allow_na = TRUE
+        ),
+
+        away_penalty_1_expires = list(
+          type = "nonnegative_numeric",
+          default = NA,
+          allow_na = TRUE
+        ),
+
+        away_penalty_2_expires = list(
+          type = "nonnegative_numeric",
           default = NA,
           allow_na = TRUE
         )

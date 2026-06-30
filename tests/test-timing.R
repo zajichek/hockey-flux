@@ -55,7 +55,13 @@ transition_entity <- function(
         away_score = away_score,
         game_status = game_status,
         in_overtime = in_overtime,
-        game_time_elapsed = game_time_elapsed
+        game_time_elapsed = game_time_elapsed,
+        home_skaters_on_ice = 5,
+        away_skaters_on_ice = 5,
+        home_penalty_1_expires = NA_real_,
+        home_penalty_2_expires = NA_real_,
+        away_penalty_1_expires = NA_real_,
+        away_penalty_2_expires = NA_real_
       )
     }
   )
